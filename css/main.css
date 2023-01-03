@@ -6,7 +6,10 @@
   font-family: headingFont;
   src: url(../fonts/YeonSung-Regular.ttf);
 }
-
+@font-face {
+  font-family: contentFont;
+  src: url(../fonts/Dosis-Regular.ttf);
+}
 .navbar {
   background-color: #71a1e1;
   font-family: navbarFont;
@@ -57,6 +60,53 @@
   border: 2px solid rgb(50, 24, 243);
   border-radius: 10px;
 }
+.container .programs div:hover{
+  background-color: #274ad7;
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.container .programs div p{
+  text-align: justify;
+  font-family: contentFont;
+  font-size: large;
+}
+
+.container .programs div h4{
+  color: rgb(240, 45, 45);
+  text-align: center;
+}
+
+.container .programs div h5{
+  text-align: center;
+  color: #274ad7;
+}
+
+.container .programs div:hover h5{
+  color: #ffea00;
+}
+
+.container .programs div:hover p{
+  color: #e1efe4bd;
+}
+
+.container-fluid .row h1{
+  font-family: headingFont;
+  color: #274ad7;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container-fluid .row{
+  background-color: #e9efed;
+}
+
+.container-fluid .row h5{
+  font-family: headingFont;
+  color: #274ad7;
+  margin-top: 1px;
+  text-align: center;
+}
 
 @media only screen and (max-width: 600px) {
   .navbar {
@@ -76,6 +126,9 @@
     height: 40vw;
     margin-left: 30%;
   }
+  .container .programs div{
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -92,6 +145,11 @@
     height: 28vw;
     margin-left: 30%;
   }
+
+  .container .programs div{
+    height: 500px;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
