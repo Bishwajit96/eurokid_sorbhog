@@ -154,9 +154,8 @@
   .container .programs div{
     height: 500px;
   }
-  .cocaricular .row .event{
-    width: 45%;
-    margin: 2%;
+  .cocaricular .row .event img{
+    margin-left : 25%;
   }
 }
 
