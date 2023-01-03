@@ -1,0 +1,122 @@
+@font-face {
+  font-family: navbarFont;
+  src: url(../fonts/LoveYaLikeASister-Regular.ttf);
+}
+
+.navbar {
+  background-color: #71a1e1;
+  font-family: navbarFont;
+}
+
+#navbarItems ul li a {
+  color: azure;
+}
+
+#navbarItems ul li a:hover {
+  color: rgba(41, 6, 33, 0.491);
+  font-size: 24px;
+}
+
+.banner {
+  background-color: #c9ebe2bd;
+}
+
+.col-md-6.left_banner {
+  border-bottom-right-radius: 10cm;
+  background-color: #e4edea;
+  height: 29vw;
+}
+
+.col-md-6.left_banner p {
+  font-family: navbarFont;
+  font-size: 30px;
+  color: rgb(62, 145, 247);
+  margin-left: 2px;
+}
+
+.col-md-6.right_banner {
+  height: 29vw;
+}
+
+.col-md-6.right_banner img {
+  margin-left: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 15px;
+  }
+  .banner{
+    height: 350px;
+  }
+  .col-md-6.left_banner{
+    height: 200px;
+  }
+  .col-md-6.left_banner p{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .col-md-6.right_banner img {
+    height: 40vw;
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    font-size: 18px;
+  }
+
+  .col-md-6.left_banner p{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .col-md-6.right_banner img {
+    height: 28vw;
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    font-size: 20px;
+  }
+
+  .col-md-6.right_banner img {
+    height: 28vw;
+  }
+
+  .col-md-6.left_banner p{
+    font-size: 25px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    font-size: 22px;
+  }
+
+  .col-md-6.right_banner img {
+    height: 30vw;
+  }
+  .col-md-6.left_banner p.inst-name{
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    font-size: 22px;
+  }
+
+  .col-md-6.right_banner img {
+    height: 31vw;
+  }
+
+  .col-md-6.left_banner p.inst-name{
+    margin-top: 50px;
+  }
+
+}
