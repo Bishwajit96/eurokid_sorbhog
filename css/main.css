@@ -159,6 +159,56 @@
   font-weight: bold;
   text-align: center;
 }
+
+.container-fluid.testimonial{
+ background-color: azure;
+}
+
+.container-fluid.testimonial h1{
+  font-family: headingFont;
+  color: #274ad7;
+  margin-top: 3px;
+  text-align: center;
+}
+
+.testimonial .container .item{
+  height: 100%;
+  transform:
+    perspective(100em)
+    rotateX(18deg);
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color:
+    rgb(213, 220, 226)
+    rgb(213, 220, 226)
+    rgb(184, 194, 204);
+}
+
+.testimonial .container .item .row .col-md-3 img{
+  border-radius: 30%;
+}
+.testimonial .container .item .row .col-md-9 h4{
+  font-family: contentFont;
+  text-align: left;
+  color: #414db8;
+}
+.testimonial .container .item .row .col-md-9 h5{
+  font-family: contentFont;
+  text-align: left;
+  color: #535ba4;
+}
+.testimonial .container .item .row .col-md-9 p{
+  font-family: contentFont;
+  text-align: left;
+  color: #535ba4;
+}
+.testimonial .container .item{
+  font-family: contentFont;
+  padding-left: 5%;
+}
 /*screen wise stylling-->*/
 
 @media only screen and (max-width: 600px) {
