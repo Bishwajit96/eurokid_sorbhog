@@ -57,7 +57,7 @@
   text-align: center;
 }
 .container .programs div{
-  height: 400px;
+  height: 430px;
   border: 2px solid rgb(50, 24, 243);
   border-radius: 10px;
 }
@@ -140,7 +140,12 @@
 .container-fluid .row.safety .col-md-3 img{
   width: 100%;
 }
-
+.panel1_col2{
+  margin-left: 10%;
+}
+.panel1_col3{
+  margin-left: 10%;
+}
 .container-fluid .row.safety.panel2 .col-md-3{
   margin-top: 5px;
 }
@@ -209,6 +214,35 @@
   font-family: contentFont;
   padding-left: 5%;
 }
+
+.footer{
+  background-color: #414db8;
+  color: white;
+  font-family: contentFont;
+}
+
+.importantLinks ul{
+  list-style: none;
+}
+.importantLinks li a{
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  transition: all 300ms ease;
+}
+
+.importantLinks a{
+  cursor: pointer;
+  text-decoration: none;
+}
+.importantLinks a:hover{
+  color: #ff2600;
+}
+.footer hr{
+  width: 70%;
+  border: solid;
+  color: white;
+}
 /*screen wise stylling-->*/
 
 @media only screen and (max-width: 600px) {
@@ -235,6 +269,12 @@
   .cocaricular .row .event img{
     margin-left : 25%;
   }
+ .panel1_col2{
+    margin-left: 0%;
+  }
+  .panel1_col3{
+    margin-left: 0%;
+  }
   .container-fluid .row.safety.panel2 .col-md-3.panel2_col1{
     margin-left: 0%;
   }
@@ -242,7 +282,6 @@
   .container-fluid .row.safety.panel2 .col-md-3.panel2_col2{
     margin-left: 0%;
   }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -264,9 +303,10 @@
     height: 500px;
   }
 
+
 }
 
-@media only screen and (max-width: 9918px) {
+@media only screen and (max-width: 918px) {
   .navbar {
     font-size: 20px;
   }
