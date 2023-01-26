@@ -24,6 +24,11 @@
   font-size: 24px;
 }
 
+#navbarItems ul li a.active {
+  color: rgba(41, 6, 33, 0.491);
+  font-size: 24px;
+}
+
 .banner {
   background-color: #c9ebe2bd;
   margin-top: 90px;
@@ -37,6 +42,7 @@
 
 .col-md-6.left_banner p {
   font-family: navbarFont;
+  margin-top: 1px;
   font-size: 30px;
   color: rgb(62, 145, 247);
   margin-left: 2px;
@@ -50,6 +56,11 @@
   margin-left: 10%;
 }
 
+.col-md-6.right_banner img.admission_image {
+  margin-top: 10px;
+  height: 90%;
+}
+
 .container .row h1{
   font-family: headingFont;
   color: #274ad7;
@@ -60,6 +71,20 @@
   height: 430px;
   border: 2px solid rgb(50, 24, 243);
   border-radius: 10px;
+}
+
+.admission_programs{
+  font-family: contentFont;
+  font-size: 20px;
+}
+.safety.admission_new{
+  font-family: contentFont;
+  font-size: 20px;
+}
+.enqueryForm{
+  background-color: #274ad7;
+  border-radius: 10px;
+  color: white;
 }
 .container .programs div:hover{
   background-color: #274ad7;
@@ -168,6 +193,12 @@
 .container-fluid.testimonial{
  background-color: azure;
 }
+.testimonial.faq{
+  font-family: contentFont;
+}
+.accordion .accordion-item{
+  margin: 10px;
+}
 
 .container-fluid.testimonial h1{
   font-family: headingFont;
@@ -242,6 +273,18 @@
   width: 70%;
   border: solid;
   color: white;
+}
+
+#spinner-div {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 2;
 }
 /*screen wise stylling-->*/
 
@@ -318,6 +361,10 @@
   .col-md-6.left_banner p{
     font-size: 25px;
     margin-top: 30px;
+  }
+  .admission_programs{
+    font-family: contentFont;
+    font-size: 16px;
   }
 }
 
