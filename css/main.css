@@ -146,7 +146,39 @@
   margin-top: 1px;
   text-align: center;
 }
+.journey h5{
+  font-family: headingFont;
+  color: #444be0;
+  margin-top: 1px;
+  text-align: center;
+}
+.journey p{
+  text-align: justify;
+  text-decoration: double;
+  font-family: contentFont;
+  font-size: 20px;
+}
+.principal_desk p{
+  text-align: justify;
+  text-decoration: double;
+  font-family: contentFont;
+  font-size: 20px;
+}
+.principal_desk p img{
+  float: right;
+  margin-left: 10px;
+}
 
+.members div h3{
+  text-align: center;
+  color: red;
+  font-weight: 700;
+  font-family: contentFont;
+}
+
+.members div img{
+  border-radius: 10px;
+}
 .cocaricular .row .event{
   /* background-color: rgb(255, 255, 255); */
   margin: 4%;
@@ -234,7 +266,13 @@
     rgb(213, 220, 226)
     rgb(184, 194, 204);
 }
-
+.staff .containe{
+  font-family: contentFont;
+}
+.staff .containe h4{
+  color: #ff0051;
+  font-weight: bold;
+}
 .testimonial .container .item .row .col-md-3 img{
   border-radius: 30%;
 }
@@ -336,6 +374,12 @@
   
   .container-fluid .row.safety.panel2 .col-md-3.panel2_col2{
     margin-left: 0%;
+  }
+
+  .members div img{
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
   }
 }
 
