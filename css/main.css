@@ -439,8 +439,8 @@
   }
 
   .col-md-6.left_banner p{
-    font-size: 25px;
-    margin-top: 30px;
+    font-size: 20px;
+    margin-top: 20px;
   }
   .admission_programs{
     font-family: contentFont;
@@ -448,11 +448,15 @@
   }
 }
 
-@media only screen and (min-width: 1199px) {
+@media only screen and (max-width: 1199px) {
   .navbar {
     font-size: 22px;
   }
 
+  .col-md-6.left_banner p{
+    font-size: 20px;
+    margin-top: 20px;
+  }
   .col-md-6.right_banner img {
     height: 30vw;
   }
