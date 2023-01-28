@@ -234,6 +234,15 @@
   text-align: center;
 }
 
+.contact .container .row div div h4{
+  font-family: headingFont;
+  font-weight: bold;
+}
+.contact .container .row div div p{
+  font-family: contentFont;
+  font-size: 18px;
+}
+
 .container-fluid.testimonial{
  background-color: azure;
 }
